@@ -50,18 +50,15 @@ title/header is maintop
   background-color: darkgray;
   border: 5px solid #000;
   text-align: center;
-  margin-left: 25%;
+  margin-left: 45%;
   padding-top: 5px;
 }
 
 
 
-/*
-this is actually unused since i aligned everything above but a useful thing I added too late in the process
-*/
-
 .centertext {
   text-align: center;
+  display: block;
 
 }
 
