@@ -1,0 +1,67 @@
+/*
+Footer styling below
+*/
+footer {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif';
+  font-size: 22px;
+  color: blanchedalmond;
+  height: 50px;
+  background-color: darkgray;
+  padding: 1px;
+  text-align: center;
+
+}
+
+/*
+header styling below
+*/
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 60px;
+  color:brown;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+
+}
+
+/*
+paragraph styling below
+*/
+
+p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 22px;
+  color: black;
+  text-align: center;
+
+}
+
+/*
+title/header is maintop
+*/
+
+.maintop {
+  font-size: 42px
+  height: 100px;
+  width: 320px;
+  background-color: darkgray;
+  border: 5px solid #000;
+  text-align: center;
+  margin-left: 25%;
+  padding-top: 5px;
+}
+
+
+
+/*
+this is actually unused since i aligned everything above but a useful thing I added too late in the process
+*/
+
+.centertext {
+  text-align: center;
+
+}
+
