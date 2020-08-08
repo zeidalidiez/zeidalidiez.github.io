@@ -50,13 +50,13 @@ title/header is maintop
   background-color: darkgray;
   border: 5px solid #000;
   text-align: center;
-  margin-left: 45%;
   padding-top: 5px;
 }
 
 
 
 .centertext {
+  margin: 0 auto;
   text-align: center;
   display: block;
 
