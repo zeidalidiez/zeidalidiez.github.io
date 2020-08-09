@@ -5,7 +5,7 @@ footer {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 22px;
   color: blanchedalmond;
-  height: 50px;
+  height: 5%;
   background-color: darkgray;
   padding: 1px;
   text-align: center;
@@ -65,10 +65,10 @@ title/header is maintop
 /* CSS pseudoclassess for links
 */
 a {
-  color: greenyellow;
+  color: snow;
 }
 a:link {
-  color: green;
+  color: blanchedalmond;
 }
 a:visited {
   color:goldenrod;
