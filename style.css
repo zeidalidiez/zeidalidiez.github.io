@@ -1,78 +1,97 @@
-/*
-Footer styling below
-*/
-footer {
+body {
+  margin: 0;
+  background-image: url("c15.png");
+  background-color: #cccccc;
+}
+
+header {
+  background-color:grey;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 32px;
+  color: gainsboro;
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+header nav ul li a {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 22px;
-  color: blanchedalmond;
-  height: 5%;
-  background-color: darkgray;
-  padding: 1px;
-  text-align: center;
+  color: gainsboro;
+  text-decoration: underline;
+  margin: 10px 10px 10px 10px;
 
 }
-
-/*
-header styling below
-*/
-h1 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 60px;
-  color:brown;
-  text-align: center;
+header nav ul li:last-child a {
+  margin-right: 0;
 }
 
-h2 {
-  text-align: center;
-
+span {
+ color: darkviolet;
+ font-size: 50px;
+ text-shadow: 0 0 10px fuchsia;
 }
 
-/*
-paragraph styling below
-*/
-
-p {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 22px;
-  color: black;
-  text-align: center;
+h3 {
+  font-size: 36px;
+  background-color:grey;
 
 }
-
-/*
-title/header is maintop
-*/
-
-.maintop {
-  font-size: 22px;
-  height: 100px;
-  width: 320px;
-  background-color: darkgray;
-  border: 5px solid #000;
-  text-align: center;
-  padding-top: 5px;
+.aboutMe {
+    display: flex;
+    background-color:grey;
+    flex-direction: column;
+      margin: 10px 10px 10px 10px;
 }
 
-
-
-.centertext {
-  margin: 0 auto;
-  text-align: center;
-  display: block;
-
+.projects {
+    display: flex;
+    background-color:grey;
+    flex-direction: column;
+      margin: 10px 10px 10px 10px;
 }
 
-/* CSS pseudoclassess for links
-*/
-a {
-  color: snow;
+.contactMe {
+    display: flex;
+    background-color:grey;
+    flex-direction: column;
+      margin: 10px 10px 10px 10px;
 }
-a:link {
-  color: blanchedalmond;
+
+@media all and (min-width: 600px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  header h1 {
+    margin: 14px 0;
+    padding-top: 6px;
+  }
+  
+  header nav {
+    margin-top: 14px;
+  }
+
+  header nav ul li a:hover {
+    color: purple;
+    text-shadow: 0 0 10px fuchsia;
+  }
 }
-a:visited {
-  color:goldenrod;
-}
-a:hover {
-  color: whitesmoke; 
-}
+
+ 
+
