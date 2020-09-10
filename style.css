@@ -48,6 +48,8 @@ span {
 h3 {
   font-size: 36px;
   background-color:grey;
+    color: gainsboro;
+    text-shadow: 0 0 10px fuchsia;
 
 }
 .aboutMe {
