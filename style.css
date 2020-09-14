@@ -1,12 +1,13 @@
 body {
   margin: 0;
   background-image: url("c15.png");
-  background-color: #cccccc;
+  background-color:grey;
 }
 
 header {
-  background-color:grey;
+background-color:grey;
   margin-bottom: 40px;
+      border: 5px solid black;
 }
 
 header h1 {
@@ -48,12 +49,67 @@ span {
 h3 {
   display: flex;
   font-size: 36px;
-  background-color:grey;
     color: gainsboro;
     text-shadow: 0 0 10px fuchsia;
     justify-content: center;
        align-items: center;
 
+}
+
+p {
+   display: flex;
+       justify-content: center;
+       align-items: center;
+}
+.contactMe ul {
+     display: flex;
+     flex-direction: column;
+       justify-content: center;
+       align-items: center;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project1 {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  justify-self: left;
+  margin: 10px; 
+ border: 5px solid black;
+ background-color:grey;
+
+}
+.project2 {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  justify-content: left;
+   margin: 10px;
+    border: 5px solid black;
+    background-color:grey;
+  
+}
+.project3 {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  justify-content: right;
+   margin: 10px;
+    border: 5px solid black;
+    background-color:grey;
+}
+.project4 {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  justify-self: right;
+   margin: 10px;
+    border: 5px solid black;
+    background-color:grey;
 }
 
 .bugg {
@@ -64,14 +120,14 @@ align-self: center;
 }
 .aboutMe {
     display: flex;
-    background-color:grey;
+background-color:grey;
     flex-direction: column;
       margin: 10px 10px 10px 10px;
+          border: 5px solid black;
 }
 
 .projects {
     display: flex;
-    background-color:grey;
     flex-direction: column;
       margin: 10px 10px 10px 10px;
 }
@@ -81,6 +137,7 @@ align-self: center;
     background-color:grey;
     flex-direction: column;
       margin: 10px 10px 10px 10px;
+          border: 5px solid black;
 }
 
 .formspring {
