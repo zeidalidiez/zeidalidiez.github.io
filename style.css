@@ -1,8 +1,14 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   background-image: url("c15.png");
   background-color:grey;
 }
+
+
 
 ul {
     text-align: center;
@@ -169,10 +175,13 @@ background-color:rgb(163, 153, 167);
 
 .formspring {
   display: flex;
-flex-direction: column;
+flex-direction: row;
 justify-self: center;
 align-self: center;
 margin: 5%; 
+flex-grow: 3;
+width: 80%;
+
 }
 
 .submitButton {
@@ -192,15 +201,19 @@ flex-direction: column;
 justify-self: center;
 align-self: center;
 margin: 5%; 
+width:100%;
 
 
 
 }
 
-
-
-
-
+.widemessage {
+  padding: 10px;
+  margin:10px 0;
+  border: 2px solid #eee;
+  border-radius:10px;
+  width:100%;
+}
 
 
 
